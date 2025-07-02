@@ -16,7 +16,7 @@ This web uses react, node to check the weather using the city name through exter
 
   - Node.js
   - express
-  - dotnet.env
+  - dotenv
   - [OpenWeatherMap](https://openweathermap.org).
 
   # Details
