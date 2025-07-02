@@ -21,7 +21,7 @@ This web uses react, node to check the weather using the city name through exter
 
   # Details
   - It uses two steps to search weather
-      - CityName to Lat,Lon of city : First Api call to fetch the lat and lon of the city
-      - Lat/Lon to the weather data : Second Api call to fetch different attributes of weather like temperature, wind speed , description etc
+      - CityName to Lat,Lon of city : First Api call to fetch the lat and lon of the city. This api call have parameters city name and apikey.
+      - Lat/Lon to the weather data : Second Api call to fetch different attributes of weather like temperature, wind speed , description etc This api call have parameters lat , lon , unit(metric) and apikey.
 
   - Protected Api using .env file 
